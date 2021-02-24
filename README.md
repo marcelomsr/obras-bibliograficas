@@ -1,5 +1,3 @@
-Altere o arquivo README para descrever quais componentes foram utilizados e como sua aplicação deverá ser executada.
-
 Componentes utilizados:
     .NET Core 3.1
     Angular 8.1.0
