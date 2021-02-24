@@ -1,0 +1,18 @@
+<h1>Authors Data</h1>
+
+<p>This component demonstrates fetching Author data from the server.</p>
+
+<p *ngIf="loading$ | async"><em>Loading...</em></p>
+
+<table class='table'>
+    <thead>
+        <tr>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let aut of autList | async">
+            <td>{{ aut }}</td>
+        </tr>
+    </tbody>
+</table>
